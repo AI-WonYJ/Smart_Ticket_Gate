@@ -4,3 +4,6 @@ https://github.com/MINED30/Face_Mask_Detection_YOLO
 
 데이터셋
 https://github.com/VictorLin000/YOLOv3_mask_detect
+
+[python] 쉽고 간단하게 마스크 착용 유무 판별기 만들기
+https://bskyvision.com/1082
