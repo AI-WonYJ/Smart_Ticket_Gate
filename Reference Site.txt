@@ -1,0 +1,5 @@
+YOLOv3를 이용한 턱스크찾기 프로젝트
+https://exupery-1.tistory.com/214
+
+데이터셋
+https://github.com/VictorLin000/YOLOv3_mask_detect
