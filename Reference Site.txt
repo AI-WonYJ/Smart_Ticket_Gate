@@ -1,2 +1,5 @@
 - YoloV5를 이용한 마스크 착용/미착용 식별 모델개발  -
 https://wana.tistory.com/25
+
+
+https://docs.google.com/document/d/1nS6mK9KUh8G15DSlWM5Vd2eVXewfUdUxm7227xLTl5E/edit
