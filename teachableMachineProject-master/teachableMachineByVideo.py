@@ -19,8 +19,8 @@ import serial
 import time
 import serial.tools.list_ports
 
-"""ports = serial.tools.list_ports.comports()
-com = ''"""
+zports = serial.tools.list_ports.comports()
+com = ''
 
 # 시리얼 통신 수동 설정
 # # 파이썬의 시리얼 통신 라이브러리를 이용해 시리얼 통신을 연결하고 이를 사용할 때 ser로 사용할 수 있도록 변수를 지정함
@@ -43,7 +43,7 @@ com = ''"""
 # ser = serial.Serial(com, 115200, timeout=0, parity=serial.PARITY_NONE, rtscts=0)
 
 
-"""# 아두이노 연결 com 포트 찾아서 자동으로 연결하기
+# 아두이노 연결 com 포트 찾아서 자동으로 연결하기
 for port, desc, hwid in sorted(ports):
     if 'Arduino' in desc:
         com = port
@@ -52,7 +52,7 @@ if com != '':
 else:
     print('\nPlease connect your microbit to this PC via USB')
     
-ser = serial.Serial(com, 9600, timeout=0)"""
+ser = serial.Serial(com, 9600, timeout=0)
 
 
 #레이블 가져오기
@@ -136,7 +136,7 @@ while(True):
     # 최고 결과치 보여주기
     crop_image = cv2.putText(crop_image, result, (10, int(label_count+1)*35), font, 1, (0, 0, 255), 1, cv2.LINE_AA)
 
-    """# prediction의 첫번째 리스트값이 0.7을 넘으면 'a'를 utf-8 형태로 인코딩하여 시리얼 통신으로 송신함
+    # prediction의 첫번째 리스트값이 0.7을 넘으면 'a'를 utf-8 형태로 인코딩하여 시리얼 통신으로 송신함
     # 학습을 시킬 때는 반드시 디폴트 이미지를 학습시키는 것이 오류를 예방할 수 있는 지름길임
     if prediction[:, 0] > 0.7 :
     # 'a'를 utf-8 형식으로 인코딩 하여 send 변수에 넣음
@@ -156,7 +156,7 @@ while(True):
     if prediction[:, 2] > 0.7 :
         send = (str('c')+'\n').encode("utf-8")
         ser.write(send)
-        print(send)"""
+        print(send)
 
     # 줄바꿈
     print()
