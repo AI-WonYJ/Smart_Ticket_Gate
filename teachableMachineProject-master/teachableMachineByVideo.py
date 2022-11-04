@@ -19,7 +19,7 @@ import serial
 import time
 import serial.tools.list_ports
 
-zports = serial.tools.list_ports.comports()
+ports = serial.tools.list_ports.comports()
 com = ''
 
 # 시리얼 통신 수동 설정
