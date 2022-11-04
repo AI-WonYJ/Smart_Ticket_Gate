@@ -1,0 +1,11 @@
+cmd 실행
+
+pip install tensorflow==2.10.0
+pip install pillow
+pip install pyserial
+pip install opencv-python
+pip install opencv-contrib-python
+
+cd desktop
+cd teachableMachineProject-master
+python teachableMachineByVideo.py
