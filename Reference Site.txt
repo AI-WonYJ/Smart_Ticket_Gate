@@ -1,5 +1,8 @@
 - YoloV5를 이용한 마스크 착용/미착용 식별 모델개발  -
 https://wana.tistory.com/25
 
-
+내 TensorFlow 사용 방법 정리 페이지
 https://docs.google.com/document/d/1nS6mK9KUh8G15DSlWM5Vd2eVXewfUdUxm7227xLTl5E/edit
+
+.h5파일 구동 소스코드 깃허브
+https://github.com/mtinet/teachableMachineProject?fbclid=IwAR252uvZKCS6GBEZCp97gtYOGIQy6_I0E-zyH1RVWSgBHmXRn_MoG9I1TtA
