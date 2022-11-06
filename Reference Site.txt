@@ -7,4 +7,5 @@ https://docs.google.com/document/d/1nS6mK9KUh8G15DSlWM5Vd2eVXewfUdUxm7227xLTl5E/
 .h5파일 구동 소스코드 깃허브
 https://github.com/mtinet/teachableMachineProject?fbclid=IwAR252uvZKCS6GBEZCp97gtYOGIQy6_I0E-zyH1RVWSgBHmXRn_MoG9I1TtA
 
+[YOLO] 커스텀 데이터셋 학습시키기 - colab에서 Yolo5 모델
 https://bong-sik.tistory.com/27
